@@ -1,2 +1,2 @@
 # MadFuzzWebScraper
-Web Scraper that get data for Mad Fuzz
+Web Scraper that gets data for Mad Fuzz

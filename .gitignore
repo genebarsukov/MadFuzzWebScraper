@@ -52,3 +52,6 @@ Temporary Items
 .idea/workspace.xml
 src/config.py
 *.pyc
+.idea/deployment.xml
+.idea/MadFuzzWebScraper.iml
+*.xml

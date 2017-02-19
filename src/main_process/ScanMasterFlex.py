@@ -10,11 +10,11 @@ import config
 
 class ScanMasterFlex(MainProcess):
     """
-    Acts as a controller to manage scanning and parsing
+    Acts as a mediator to manage scanning and parsing
     We need to use the Scanner and the Parser classes at different times during the scanning process
     The process is not liner, so the interactions between the Scanner and the Parser get confusing if they constantly
     act on each other at different times
-    We can simplify this by using a controller which will have a well defined set of directives for what needs to happen
+    We can simplify this by using a mediator which will have a well defined set of directives for what needs to happen
     during the scanning process.
     The Scan Master will then call on the Scanner or the Parser to accomplish each task. THis clarifies the process
     """

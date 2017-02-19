@@ -184,7 +184,7 @@ class Parser(MainProcess):
         self.log(story.__dict__, 'dev')
         story.snippet = story.body
 
-        # Set a story to active only if we got good data. The story url is set late in the controller
+        # Set a story to active only if we got good data. The story url is set late in the mediator master class
         if story.title and story.body:
             story.active = True
         else:

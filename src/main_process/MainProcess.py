@@ -3,7 +3,7 @@ import config
 
 class MainProcess(object):
     """
-    A process class encompassing the common actions between the scanner, parser and controller
+    A process class encompassing the common actions between the scanner, parser and mediator
     """
     log_level = ''
     available_log_levels = []

@@ -22,7 +22,7 @@ This process relies on some or all of the following prameters to get the data:
 * article_body_container	
 * article_body
 
-This project is coupled with a web console where the user can create a new source and enter these parameters quickly and easily.
+This project is coupled with a web console (sold separately) where the user can create a new source and enter these parameters quickly and easily.
 The user can then run the new scraper they created from the console and view the log to see if he was able to get data
 
 ![ScreenShot](https://github.com/genebarsukov/MadFuzzWebScraper/blob/develop/madfuzz_console_example.png)

@@ -37,9 +37,9 @@ This project is coupled with a web console where the user can create a new sourc
 ![ScreenShot](https://github.com/genebarsukov/MadFuzzWebScraper/blob/develop/madfuzz_console_example.png)
 
 Project workflow:
-1. ScannerQueue gets records to scan from a database
-2. ScanMasterFlex mediator controls the scanning and parsing
-3. Mediator uses Scanner to hit the main page and get the response
+ 1. ScannerQueue gets records to scan from a database
+ 2. ScanMasterFlex mediator controls the scanning and parsing
+ 3. Mediator uses Scanner to hit the main page and get the response
 4. Article links are parserd with the Parser
 5. Scanner filters out links that were prrciously scanned
 6. Scanner hits each article links and gets the response

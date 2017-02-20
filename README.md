@@ -11,7 +11,7 @@ We handle different sources by specifying different page parameters in a databas
 This process relies on some or all of the following prameters to get the data:
 
  1. For scraping the main page:
-* Main page container:      all content wrapper
+* Main page container:      __all content wrapper
 * First headline container:	link wrapper
 * First headline:           link data
 * Headline container: link wrapper

@@ -22,6 +22,7 @@ The basic premise is to be able to scrape a bunch of different sources simply by
 This project is coupled with a web console where the user can create a new source and enter these parameters
 
 ![ScreenShot](https://github.com/genebarsukov/MadFuzzWebScraper/blob/develop/madfuzz_console_example.png)
+
 Run arguments:
 ```
 -h, --help            show this help message and exit

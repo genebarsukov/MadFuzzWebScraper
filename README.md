@@ -11,11 +11,11 @@ We handle different sources by specifying different page parameters in a databas
 This process relies on some or all of the following prameters to get the data:
 
  1. For scraping the main page:
-* Main page container:      __all content wrapper__
-* First headline container:	link wrapper
-* First headline:           link data
-* Headline container: link wrapper
-* Headline: link data
+* Main page container - all content wrapper
+* First headline container -	link wrapper
+* First headline - link url
+* Headline container - link wrapper
+* Headline - link url
  2. For parsing each article page
 * Article page container	: all content wrapper
 * Article title container: title wrapper

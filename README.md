@@ -10,10 +10,12 @@ The process uses a few simple classes for every source.
 We handle different sources by specifying different page parameters in a database that the process uses to scrape the pages. 
 This process relies on some or all of the following prameters to get the data:
 
-* main_page_container	
-* first_headline_container	
-* first_headline	
-* headline_container	
+ 1. For scraping the main page:
+ --* Main page container	
+ --* First headline container	
+ --* first_headline	
+ --* headline_container
+ 2. For parsing each article page
 * article_page_container	
 * article
 * marticle_title_container	

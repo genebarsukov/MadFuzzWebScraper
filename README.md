@@ -21,12 +21,13 @@ The basic premise is to be able to scrape a bunch of different sources simply by
 
 This project is coupled with a web console where the user can create a new source and enter these parameters
 
-![alt text](https://github.com/genebarsukov/MadFuzzWebScraper/blob/develop/madfuzz_console_example.png)
+![ScreenShot](https://github.com/genebarsukov/MadFuzzWebScraper/blob/develop/madfuzz_console_example.png)
 Run arguments:
-
-* -h, --help            show this help message and exit
-* -s SOURCE_ID, --source_id SOURCE_ID Source id to scan
-* -l LOG_LEVEL, --log_level LOG_LEVEL Log verboseness level
-* -a, --archive         Archive old records
-*  -t, --transform       Transform story snippets
-*  -r, --update_ratings  Update story ratings
+```
+-h, --help            show this help message and exit
+-s SOURCE_ID, --source_id SOURCE_ID Source id to scan
+-l LOG_LEVEL, --log_level LOG_LEVEL Log verboseness level
+-a, --archive         Archive old records
+-t, --transform       Transform story snippets
+-r, --update_ratings  Update story ratings
+```

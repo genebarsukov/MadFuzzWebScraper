@@ -6,9 +6,12 @@ This is a demo. it will not run without a missing config file.
 ### This project scrapes some news story data from a variaety of sources
 
 The basic premise is to be able to scrape a bunch of different sources simply by entering some parameters into a console.
+
 The process uses a few simple classes for every source.
+
 We handle different sources by specifying different page parameters in a database that the process uses to scrape the pages. 
-This process relies on some or all of the following prameters to get the data:
+
+### This process relies on some or all of the following prameters to get the data:
 
  1. For scraping the main page:
 * Main page container - all content wrapper
@@ -17,13 +20,13 @@ This process relies on some or all of the following prameters to get the data:
 * Headline container - link wrapper
 * Headline - link url
  2. For parsing each article page
-* Article page container	: all content wrapper
-* Article title container: title wrapper
-* Article title: title data
-* Article author container: author wrapper
-* Article author: author data
-* Article body container: text snippet wrapper
-* Article body: text snippet
+* Article page container	- all content wrapper
+* Article title container - title wrapper
+* Article title - title data
+* Article author container - author wrapper
+* Article author - author data
+* Article body container - text snippet wrapper
+* Article body - text snippet
 
 This project is coupled with a web console (sold separately) where the user can create a new source and enter these parameters quickly and easily.
 The user can then run the new scraper they created from the console and view the log to see if he was able to get data

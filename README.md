@@ -11,18 +11,19 @@ We handle different sources by specifying different page parameters in a databas
 This process relies on some or all of the following prameters to get the data:
 
  1. For scraping the main page:
- --* Main page container	
- --* First headline container	
- --* first_headline	
- --* headline_container
+* Main page container: all content wrapper
+* First headline container:	link wrapper
+* First headline: link data
+* Headline container: link wrapper
+* Headline: link data
  2. For parsing each article page
-* article_page_container	
-* article
-* marticle_title_container	
-* article_title	
-* article_author_container	
-* article_body_container	
-* article_body
+* Article page container	: all content wrapper
+* Article title container: title wrapper
+* Article title: title data
+* Article author container: author wrapper
+* Article author: author data
+* Article body container: text snippet wrapper
+* Article body: text snippet
 
 This project is coupled with a web console (sold separately) where the user can create a new source and enter these parameters quickly and easily.
 The user can then run the new scraper they created from the console and view the log to see if he was able to get data
